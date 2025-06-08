@@ -1,0 +1,8 @@
+
+services:
+  - type: web
+    name: dex-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python dex_bot.py"
+    plan: free
